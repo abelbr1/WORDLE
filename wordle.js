@@ -63,6 +63,7 @@ async function init() {
     currentRow++;
 
     if (currentGuess === word) {
+      // win
       alert("you win");
       done = true;
       return;
